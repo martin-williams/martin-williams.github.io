@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.mjs
-    siteTitle: `Cara`,
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
-    siteHeadline: `Cara - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+    siteTitle: `JollyWeb`,
+    siteTitleAlt: `JollyWeb`,
+    siteHeadline: `JollyWeb`,
+    siteUrl: `https://jollyweb.dev`,
+    siteDescription: `Your Small Business Champion in the Digital Arena`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `@mwilliams77`,
   },
   trailingSlash: `always`,
   plugins: [
@@ -27,9 +27,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `JollyWeb`,
+        short_name: `JollyWeb`,
+        description: `Your Small Business Champion in the Digital Arena`,
         start_url: `/`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website
